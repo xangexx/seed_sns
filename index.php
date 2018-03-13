@@ -176,8 +176,8 @@ echo '</pre>';
             <a href="view.html">
               2016-01-28 18:04
             </a>
-            [<a href="#" style="color: #00994C;">編集</a>]
-            [<a href="#" style="color: #F33;">削除</a>]
+            [<a href="edit.php?tweet_id=<?php $one_tweet['tweet_id']; ?>" style="color: #00994C;">編集</a>]
+            [<a href="delete.php?tweet_id=<?php $one_tweet['tweet_id']; ?>" style="color: #F33;">削除</a>]
           </p>
         </div>
 
